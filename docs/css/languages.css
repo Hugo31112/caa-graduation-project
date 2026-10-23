@@ -1,0 +1,18 @@
+/* Shared language navigation; both static pages work offline without JavaScript. */
+.language-bar{max-width:1240px;margin:0 auto;padding:8px 28px 0;display:flex;justify-content:flex-end;gap:4px;font-size:13px;line-height:1.5}
+.language-bar a{display:inline-flex;align-items:center;justify-content:center;min-height:32px;padding:3px 13px;border:1px solid var(--line);border-radius:3px;color:var(--muted)}
+.language-bar a[aria-current="page"]{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:600}
+.language-bar a:hover{border-color:var(--ink)}
+html{scroll-padding-top:136px}
+html[lang="en"] body{font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:1.8}
+html[lang="en"] h1{font-size:44px;letter-spacing:-.7px;max-width:950px}
+html[lang="en"] .intro-text{font-size:24px}
+html[lang="en"] nav .nav-inner{gap:23px;font-size:14px}
+html[lang="en"] table{font-size:16px;line-height:1.65;min-width:1020px}
+html[lang="en"] .matrix{min-width:1180px;max-width:none;font-size:14px}
+html[lang="en"] .case-fields>div{grid-template-columns:115px 1fr}
+html[lang="en"] .key-statement{font-size:29px}
+html[lang="en"] .diagram-wide:after{content:'Scroll horizontally to view the diagram'}
+@media(max-width:900px){.language-bar{padding:6px 22px 0}html[lang="en"] h1{font-size:36px}}
+@media(max-width:580px){.language-bar{padding:6px 20px 0}.language-bar a{min-height:36px;padding:4px 14px}html[lang="en"] body{font-size:17px}html[lang="en"] h1{font-size:30px}html[lang="en"] .intro-text{font-size:20px}html[lang="en"] .key-statement{font-size:24px}html[lang="en"] .case-fields>div{grid-template-columns:1fr}}
+@media print{html{scroll-padding-top:0}html[lang="en"] body{font-size:11pt}html[lang="en"] h1{font-size:28pt}html[lang="en"] table,html[lang="en"] .matrix{min-width:0;font-size:8pt}}

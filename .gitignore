@@ -2,3 +2,14 @@
 Thumbs.db
 desktop.ini
 *.log
+
+# Defense in depth: private materials never belong here.
+research-private/
+PROJECT_MEMORY.md
+PROJECT_STATUS.md
+DECISION_LOG.md
+AI_HANDOFF.md
+.env
+.env.*
+*.pem
+*.key
