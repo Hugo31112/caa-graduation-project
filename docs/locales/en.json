@@ -575,5 +575,8 @@
   "草图、实验、取舍": "Sketches, experiments, decisions",
   "对照与解释": "Compare and interpret",
   "看到不同选择怎样形成": "Understand how choices develop",
-  "真实成果 · 继续提问 · 保存理解": "Documented outcome · Further questions · Saved reflections"
+  "真实成果 · 继续提问 · 保存理解": "Documented outcome · Further questions · Saved reflections",
+  "用户发送“send me”及一个关键词、颜色或表情，系统返回相关馆藏图片与图注。使用者可以立即获得一件作品及背景信息，不要求先懂艺术分类或输入准确的作品名称。": "Users send “send me” followed by a keyword, colour or emoji and receive a collection image and caption. They can immediately encounter a work with context, without knowing art categories or an exact title.",
+  "两种交互可以并存：游客可从看风景、拍照进入作品，也可直接参与一个创作选择。两者共用收藏与续看入口，不要求所有人完成同一条路线。": "The two approaches can coexist: visitors may enter through a view or photograph, or go directly to a creative choice. Both share saving and return access, without requiring everyone to follow one route.",
+  "AI回应游客实际表达的关注点，帮助解释档案；作者陈述和公众评论分别保留。已完成作品可展开真实过程与成果；未完成灵感另作开放交流，不承诺展示最终成果。": "AI responds to the concern a visitor expresses and helps explain the archive; creator statements and public comments remain distinct. Completed works can reveal documented processes and outcomes. Unfinished ideas support open discussion, with no promised final outcome."
 }
