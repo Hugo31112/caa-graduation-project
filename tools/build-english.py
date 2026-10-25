@@ -71,6 +71,12 @@ for f in (DOCS/'assets/diagrams').glob('*.svg'):
             for el in list(parent):
                 if el.tag=='{'+NS+'}text' and el.get('font-size') in ['13','15'] and el.text in ['Reach','Understanding','Circulation','Connection']:
                     parent.remove(el)
+    if f.name.startswith('work_archive'):
+        # Keep translated headings, removing the original English subtitles.
+        for parent in root.iter():
+            for el in list(parent):
+                if el.tag=='{'+NS+'}text' and el.get('font-size') in ['14','15'] and el.text in ['Inspiration','Process','Outcome','Response']:
+                    parent.remove(el)
     rects=list(root.iter('{'+NS+'}rect'));texts=list(root.iter('{'+NS+'}text'))
     for el in texts:
         x=float(el.get('x','0'));y=float(el.get('y','0'));size=float(el.get('font-size','18'));anchor=el.get('text-anchor','start')
